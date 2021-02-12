@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Buddy Info</title>
+</head>
+<body>
+<p th:text="'Id: ' + ${buddy.id}" />
+<p th:text="'Name: ' + ${buddy.name} + '!'" />
+<p th:text="'Age: ' + ${buddy.age}"/>
+<p th:text="'Address: ' + ${buddy.address}"/>
+<p th:text="'Phone Number: ' + ${buddy.phoneNumber}"/>
+
+<a href="/greeting">Create another buddy</a>
+<a href="/addressbook">View address book</a>
+
+</body>
+</html>
