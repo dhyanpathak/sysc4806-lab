@@ -58,9 +58,6 @@
     </dependencies>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <java.version>11</java.version>
         <testcontainers.version>1.15.1</testcontainers.version>
     </properties>
     <dependencyManagement>
